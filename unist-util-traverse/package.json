@@ -1,0 +1,20 @@
+{
+  "name": "unist-util-traverse",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "node build.js",
+    "generate-types": "tsc --emitDeclarationOnly"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mdast": "^3.0.11",
+    "@types/unist": "^2.0.6",
+    "esbuild": "^0.18.4",
+    "typescript": "^5.1.3"
+  }
+}
