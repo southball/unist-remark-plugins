@@ -5,5 +5,6 @@ build({
   outbase: "./src",
   outdir: "./dist",
   platform: "node",
+  target: "es2021",
   external: [],
 });
